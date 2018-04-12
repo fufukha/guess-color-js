@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Guess Color JS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./styles/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+</head>
+<body>
+	<div class="container"> 
+		<div class="row">
+			<div class="wrapper">
+				<h1 class="col-lg-10 col-lg-offset-1 " >I'm thinking of a color from Red to Violet. What's the color?</h1>
+				<form class="col-lg-10 col-lg-offset-1 form-group-lg">
+					<select class="form-control" aria-describedby="helpBlock" id="select">
+						<option hidden>Choose a color</option>
+						<option value="0">Red</option>
+						<option value="1">Orange</option>
+						<option value="2">Yellow</option>
+						<option value="3">Green</option>
+						<option value="4">Blue</option>
+						<option value="5">Indigo</option>
+						<option value="6">Violet</option>
+					</select> 
+				 <button type="button" class="btn btn-default btn-lg btn-block hidden">Play Again</button>
+					<span id="helpBlock" class="help-block"></span>
+				</form>
+			</div>    
+		</div>
+	</div> 
+</body>
+<script type="text/javascript" src="./scripts/script.js"></script>
+</html>

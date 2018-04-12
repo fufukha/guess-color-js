@@ -1,0 +1,189 @@
+/*===============
+Varibles
+=================*/
+/*===============
+Mixin
+=================*/
+/*===============
+Maps & Keyframes 
+=================*/
+.red {
+  background-color: #e02b1c;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none; }
+
+.orange {
+  background-color: #d86a2d;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none; }
+
+.yellow {
+  background-color: #f9bf3a;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none; }
+
+.green {
+  background-color: #0dac50;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none; }
+
+.blue {
+  background-color: #0177c1;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none; }
+
+.indigo {
+  background-color: #56349d;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none; }
+
+.violet {
+  background-color: #8d44ad;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none; }
+
+@-webkit-keyframes colors {
+  0% {
+    background-color: #e02b1c; }
+  14.3% {
+    background-color: #d86a2d; }
+  28.6% {
+    background-color: #f9bf3a; }
+  42.9% {
+    background-color: #0dac50; }
+  57.2% {
+    background-color: #0177c1; }
+  71.5% {
+    background-color: #56349d; }
+  85.8% {
+    background-color: #8d44ad; }
+  100% {
+    background-color: #e02b1c; } }
+@-moz-keyframes colors {
+  0% {
+    background-color: #e02b1c; }
+  14.3% {
+    background-color: #d86a2d; }
+  28.6% {
+    background-color: #f9bf3a; }
+  42.9% {
+    background-color: #0dac50; }
+  57.2% {
+    background-color: #0177c1; }
+  71.5% {
+    background-color: #56349d; }
+  85.8% {
+    background-color: #8d44ad; }
+  100% {
+    background-color: #e02b1c; } }
+@-ms-keyframes colors {
+  0% {
+    background-color: #e02b1c; }
+  14.3% {
+    background-color: #d86a2d; }
+  28.6% {
+    background-color: #f9bf3a; }
+  42.9% {
+    background-color: #0dac50; }
+  57.2% {
+    background-color: #0177c1; }
+  71.5% {
+    background-color: #56349d; }
+  85.8% {
+    background-color: #8d44ad; }
+  100% {
+    background-color: #e02b1c; } }
+@-o-keyframes colors {
+  0% {
+    background-color: #e02b1c; }
+  14.3% {
+    background-color: #d86a2d; }
+  28.6% {
+    background-color: #f9bf3a; }
+  42.9% {
+    background-color: #0dac50; }
+  57.2% {
+    background-color: #0177c1; }
+  71.5% {
+    background-color: #56349d; }
+  85.8% {
+    background-color: #8d44ad; }
+  100% {
+    background-color: #e02b1c; } }
+@keyframes colors {
+  0% {
+    background-color: #e02b1c; }
+  14.3% {
+    background-color: #d86a2d; }
+  28.6% {
+    background-color: #f9bf3a; }
+  42.9% {
+    background-color: #0dac50; }
+  57.2% {
+    background-color: #0177c1; }
+  71.5% {
+    background-color: #56349d; }
+  85.8% {
+    background-color: #8d44ad; }
+  100% {
+    background-color: #e02b1c; } }
+/*===============
+Custom 
+=================*/
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  -webkit-animation: colors 20s linear infinite;
+  -moz-animation: colors 20s linear infinite;
+  -ms-animation: colors 20s linear infinite;
+  -o-animation: colors 20s linear infinite;
+  animation: colors 20s linear infinite; }
+
+h1 {
+  font-size: 2em;
+  color: white; }
+
+.container {
+  height: inherit; }
+
+.row {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+
+span {
+  height: 51px; }
+
+.help-block {
+  color: #424242; }
+
+.wrapper {
+  width: 964px; }
+
+/*# sourceMappingURL=main.css.map */
